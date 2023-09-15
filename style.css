@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Home */
+.home {
+  background-image: url(images/drew-coffman-1872.jpg);
+  height: 100vh;
+  background-size: 100% 100%;
+  overflow: auto;
+}
+.home-cap {
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.nav-logo {
+  width: 13%;
+  float: left;
+  margin-top: 10px;
+}
+.nav-logo img {
+  width: 100%;
+}
+
+.nav-links ul {
+  float: right;
+  margin-top: 10px;
+}
+.nav-links ul li {
+  list-style-type: none;
+  float: left;
+  padding: 15px;
+}
+.nav-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.clear {
+  clear: both;
+}
+.home-cap p {
+  font-size: 23px;
+}
+.home-cap h1 {
+  font-size: 55px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.btn {
+  padding: 17px;
+  color: white;
+  margin: 20px 10px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.btn1 {
+  background-color: #8e7754;
+  border: none;
+}
+.btn2 {
+  background-color: transparent;
+  border-color: white;
+}
+/* .btn2:hover .btn2
+{
+    background-color: white;
+} */
+.scroll {
+  width: 30px;
+  height: 50px;
+  margin: auto;
+  border: solid 2px white;
+  border-radius: 30%;
+  margin-top: 40px;
+}
+/* Home End */
+
+/* About */
+.about {
+  margin: 50px 0;
+}
+.about-img {
+  width: 40%;
+  float: left;
+}
+.about-img img {
+  width: 100%;
+}
+.about-cap {
+  width: 55%;
+  float: right;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.about-cap p {
+  color: #686868;
+  margin: 40px 0 25px;
+}
+
+.about-list ul li {
+  color: #686868;
+  padding: 15px;
+}
+/* About End */
+
+/* Our offer */
+.offer {
+  background-color: #f8f8f8;
+  padding: 50px;
+}
+
+.offer-cap {
+  width: 45%;
+  float: left;
+  margin: 50px 0;
+}
+.offer-cap h2 {
+  color: black;
+  margin-top: 50px;
+}
+.offer-cap p {
+  color: #686868;
+}
+.par1 {
+  margin: 25px 0;
+}
+.offer-img {
+  width: 50%;
+  float: right;
+}
+.offer-img img {
+  width: 100%;
+  margin: 50px 0;
+}
+/* Our offer End */
+
+/* gallery */
+.gallery {
+  text-align: center;
+  overflow: hidden;
+  margin: 50px 0;
+}
+.gallery h3 {
+  margin: 50px 0 20px;
+  font-size: 25px;
+}
+.gallery p {
+  color: #686868;
+}
+.meals {
+  margin: 50px;
+}
+.meal {
+  width: 33%;
+  float: left;
+  padding: 20px;
+  margin: auto;
+}
+.meal img {
+  width: 100%;
+}
+.meal h5 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+/* gallery End */
+
+/* Blog */
+.blog {
+  background-color: #f8f8f8;
+  padding: 30px;
+}
+.blog-cap {
+  width: 45%;
+  float: left;
+  margin: 50px 0;
+  padding: 0 50px;
+}
+.blog-cap h3 {
+  color: black;
+  font-size: 20px;
+}
+.blog-cap p {
+  color: #686868;
+}
+
+.blog-cap ul li {
+  color: #686868;
+  padding: 15px;
+}
+.blog-map {
+  width: 10%;
+  float: left;
+  margin: 50px 0;
+  padding: 0 50px;
+}
+/* Blog End */
+
+/* Contact */
+.contact {
+  background-color: #403d38;
+  margin: 50px 0 0 0;
+}
+.contact-row {
+  width: 25%;
+  float: left;
+  padding: 25px;
+}
+.contact-row h4 {
+  margin: 10px 0;
+  color: white;
+}
+.contact-row p {
+  color: rgba(255, 255, 255, 0.34);
+}
+.contact-row ul li {
+  padding: 5px;
+  color: rgba(255, 255, 255, 0.34);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+/* Contact End */
+
+/* Info */
+div.info {
+  background-color: #353330;
+  margin-bottom: 50px;
+}
+.info-cap {
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+}
+.info-cap img {
+  width: 100%;
+}
+.info-cap p {
+  color: rgba(255, 255, 255, 0.34);
+  text-align: center;
+  margin: 15px 0;
+}
+/* Info End */
+
+  
+  .btn:hover {
+    transform: scale(1.1);
+  }
+  .btn:hover {
+    animation: dance 0.5s ease-in-out infinite;
+  }
+  
+  @keyframes dance {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    25%, 75% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+  }
+  
+  
+  
+  
+  
